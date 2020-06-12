@@ -19,7 +19,6 @@ selenium-debug.log
 
 #
 package-lock.json
-data
 __pycache__
 /server/knowledge-training-system/
 /server/knowledge-training-system/config
