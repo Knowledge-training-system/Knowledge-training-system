@@ -1,0 +1,3401 @@
+[
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 1,
+  "fields": {
+   "question": "[单选题] 毛泽东思想确立为党的指导思想并写入党章是在( )。",
+   "questionType": 0,
+   "options": [
+    "A.延安整风时期",
+    "B.遵义会议",
+    "C.党的六届六中全会",
+    "D.党的七大"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 63,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 2,
+  "fields": {
+   "question": "[单选题] 毛泽东思想和中国特色社会主义理论体系这两大理论的共同理论基础是( )。",
+   "questionType": 0,
+   "options": [
+    "A.马克思列宁主义",
+    "B.共产主义理想",
+    "C.社会主义初级阶段理论",
+    "D.实事求是思想"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 96,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 3,
+  "fields": {
+   "question": "[单选题] 党的七大通过的《中国共产党章程》在总纲中确定,以马克思列宁主义的理论与中国革命的实践之统一的思想——( ),作为我们党一切工作的指南。",
+   "questionType": 0,
+   "options": [
+    "A.毛泽东思想",
+    "B.邓小平理论",
+    "C.马克思主义中国化",
+    "D.马列主义"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 47,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 4,
+  "fields": {
+   "question": "[单选题] 中国共产党对待马克思主义唯一正确和科学的态度是( )。",
+   "questionType": 0,
+   "options": [
+    "A.坚持马克思主义基本原理与中国具体实际相结合",
+    "B.坚持维护马克思主义的原创性",
+    "C.靠考证马克思关于某一问题的某一论证来解决问题",
+    "D.马克思主义是神圣不可侵犯的"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 65,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 5,
+  "fields": {
+   "question": "[单选题] 中国革命和建设的基本立足点是( )。",
+   "questionType": 0,
+   "options": [
+    "A.独立自主",
+    "B.群众路线",
+    "C.实事求是",
+    "D.改革开放"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 41,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 6,
+  "fields": {
+   "question": "[单选题] 在党的历史上,第一个明确地提出解决思想路线这个问题的领导人是( )。",
+   "questionType": 0,
+   "options": [
+    "A.毛泽东",
+    "B.刘少奇",
+    "C.周恩来",
+    "D.邓小平"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 73,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 7,
+  "fields": {
+   "question": "[单选题] 贯穿于马克思主义中国化理论成果始终的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.理论创新",
+    "B.实事求是",
+    "C.本本主义",
+    "D.中体西用"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 12,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 8,
+  "fields": {
+   "question": "[单选题] 建国初,党曾提出在20世纪内,分两步走把我国建设成为“四个( )”的社会主义国家的构想。",
+   "questionType": 0,
+   "options": [
+    "A.全面化",
+    "B.科技化",
+    "C.现代化",
+    "D.知识化"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 99,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 9,
+  "fields": {
+   "question": "[单选题] ( )提出了把我国由农业国变为工业国,实现国家现代化的构想。",
+   "questionType": 0,
+   "options": [
+    "A.党的七届二中全会",
+    "B.党的七届三中全会",
+    "C.中共七大",
+    "D.中共八大"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 63,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 10,
+  "fields": {
+   "question": "[单选题] 毛泽东和毛泽东思想的认识错误倾向主要有( )。",
+   "questionType": 0,
+   "options": [
+    "A.实事求是",
+    "B.“两个凡是”和全盘否定",
+    "C.历史分析法",
+    "D.区分过失与功绩"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 21,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 11,
+  "fields": {
+   "question": "[多选题] 下列中属于毛泽东思想形成和发展的鲜明特点的有( )。",
+   "questionType": 1,
+   "options": [
+    "A.毛泽东思想是马克思列宁主义同中国实际相结合的产物",
+    "B.毛泽东思想是在同错误思潮的斗争中形成和发展的",
+    "C.毛泽东思想的形成是中国自身的产物,和外来思想无关",
+    "D.毛泽东思想形成和发展的过程,就是马克思主义中国化的过程"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 9,
+   "answer": [
+    "ABD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 12,
+  "fields": {
+   "question": "[多选题] 毛泽东思想是在我国( )的实践过程中,在总结我国革命和建设正反两方面历史经验的基础上,逐步形成和发展起来的。",
+   "questionType": 1,
+   "options": [
+    "A.新民主主义革命",
+    "B.社会主义革命",
+    "C.社会主义建设",
+    "D.改革开放"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 13,
+   "answer": [
+    "ABC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 13,
+  "fields": {
+   "question": "[多选题] 第一次国内革命战争时期,毛泽东以马克思列宁主义为指导,深入实际调查研究,在( )等著作中,分析了中国社会各阶级在革命中的地位和作用,提出了新民主主义革命的基本思想。",
+   "questionType": 1,
+   "options": [
+    "A.《论联合政府》",
+    "B.《中国社会各阶级的分析》",
+    "C.《湖南农民运动考察报告》",
+    "D.《新民主主义论》"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 99,
+   "answer": [
+    "BC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 14,
+  "fields": {
+   "question": "[多选题] 下列各项中,体现了毛泽东思想在解放战争时期和中华人民共和国成立以后继续得到发展的有( )。",
+   "questionType": 1,
+   "options": [
+    "A.形成了人民民主专政的理论",
+    "B.阐述了新民主主义向社会主义转变的思想",
+    "C.论述了社会主义社会的基本矛盾",
+    "D.提出了正确区分和处理两类不同性质矛盾的学说"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 20,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 15,
+  "fields": {
+   "question": "[多选题] 下列属于毛泽东思想政治工作和文化工作理论的是( )。",
+   "questionType": 1,
+   "options": [
+    "A.关于思想政治工作是经济工作和其他一切工作的生命线",
+    "B.关于发展民族的、科学的、大众的文化",
+    "C.实行百花齐放、百家争鸣和古为今用、洋为中用、推陈出新的方针",
+    "D.关于知识分子在革命和建设中具有的重要作用"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 16,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 16,
+  "fields": {
+   "question": "[多选题] 以下属于毛泽东思想活的灵魂的方面是( )。",
+   "questionType": 1,
+   "options": [
+    "A.本本主义",
+    "B.实事求是",
+    "C.群众路线",
+    "D.独立自主"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 57,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 17,
+  "fields": {
+   "question": "[多选题] 毛泽东思想的主要内容包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.关于革命军队建设和军事战略的理论",
+    "B.关于社会主义革命和社会主义建设的理论",
+    "C.关于思想政治工作和文化工作的理论",
+    "D.关于政策和策略的理论"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 48,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 18,
+  "fields": {
+   "question": "[多选题] 毛泽东深刻阐述理论对于实践的依赖关系,以及矛盾的普遍性和特殊性关系,对党的思想路线作出系统的哲学认证的著作是( )。",
+   "questionType": 1,
+   "options": [
+    "A.《反对本本主义》",
+    "B.《实践论》",
+    "C.《矛盾论》",
+    "D.《改造我们的学习》"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 72,
+   "answer": [
+    "BC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 19,
+  "fields": {
+   "question": "[多选题] 毛泽东对社会主义基本矛盾理论的主要贡献是( )。",
+   "questionType": 1,
+   "options": [
+    "A.明确提出社会主义社会基本矛盾的概念和内涵",
+    "B.指出社会主义社会的基本矛盾是社会主义社会发展的动力",
+    "C.阐明了社会主义社会基本矛盾的性质",
+    "D.阐明了社会主义社会基本矛盾的特点"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 84,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 20,
+  "fields": {
+   "question": "[多选题] 以下对毛泽东思想的历史地位正确的理解有()。",
+   "questionType": 1,
+   "options": [
+    "A.它只是我们在革命时期必须要坚持的指导思想",
+    "B.它是马克思主义中国化第一次历史性飞跃的理论成果",
+    "C.它是中国革命和建设的科学指南",
+    "D.它是党和人民的宝贵精神财富"
+   ],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 97,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 21,
+  "fields": {
+   "question": "[填空题] 1938年毛泽东在党的六届六中全会上主要提出了( )的重大命题",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 41,
+   "answer": [
+    "马克思主义中国化"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 22,
+  "fields": {
+   "question": "[填空题] 毛泽东第一次提出“马克思主义中国化”科学概念的文章是在六届六中全会所作报告《( )》。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 74,
+   "answer": [
+    "论新阶段"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 23,
+  "fields": {
+   "question": "[填空题] ( )是马克思主义中国化的第一个重大理论成果。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 70,
+   "answer": [
+    "毛泽东思想"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 24,
+  "fields": {
+   "question": "[填空题] 为独立自主的中华人民共和国外交关系奠定基础的方针除了另起炉灶、一边倒外,还包括( )。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 32,
+   "answer": [
+    "打扫干净屋子再请客"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 25,
+  "fields": {
+   "question": "[填空题] 毛泽东提出的中国共产党的思想路线是( )。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 65,
+   "answer": [
+    "实事求是"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 26,
+  "fields": {
+   "question": "[填空题] 坚持党的思想路线,一切从实际出发,其中最大的实际就是我国目前处于并将长期处于( )。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 83,
+   "answer": [
+    "社会主义初级阶段"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 27,
+  "fields": {
+   "question": "[填空题] ( )是马克思主义中国化第一次历史性飞跃的理论成果。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 61,
+   "answer": [
+    "毛泽东思想"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 28,
+  "fields": {
+   "question": "[填空题] 毛泽东在著作《( )》中第一次系统提出社会主义社会矛盾的学说。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 92,
+   "answer": [
+    "关于正确处理人民内部矛盾的问题"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 29,
+  "fields": {
+   "question": "[填空题] 毛泽东指出,马克思主义一定要和民族的特点相结合,经过一定的( )形式表达出来。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 12,
+   "answer": [
+    "民族"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 30,
+  "fields": {
+   "question": "[填空题] 毛泽东思想开始形成是在( )时期。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 38,
+   "answer": [
+    "土地革命战争"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 31,
+  "fields": {
+   "question": "[判断题] 在马克思主义传入中国的同时,也有其他流派主义传入中国。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 45,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 32,
+  "fields": {
+   "question": "[判断题] 马克思主义中国化就是将马克思主义所有内容同中国具体实践相结合。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 52,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 33,
+  "fields": {
+   "question": "[判断题] 马克思主义中国化理论成果的精髓是实事求是。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 74,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 34,
+  "fields": {
+   "question": "[判断题] 毛泽东思想就是毛泽东个人的思想。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 17,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 35,
+  "fields": {
+   "question": "[判断题] 毛泽东传统文化观的核心思想就是站在马列主义立场上,批判地继承了中国的传统文化。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 5,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 36,
+  "fields": {
+   "question": "[判断题] 毛泽东晚年特别是在“文化大革命”中犯了严重错误,但就他的一生来看,他的功绩是第一位的,他的过失是第二位的。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 74,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 37,
+  "fields": {
+   "question": "[判断题] 毛泽东思想就是指毛泽东同志的思想。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 65,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 38,
+  "fields": {
+   "question": "[判断题] 思想理论是社会变革的先导。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 59,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 39,
+  "fields": {
+   "question": "[判断题] 党领导人民革命、建设和改革中取得的一切成果,从跟本上说,都是因为坚持了实事求是的思想路线。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 53,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 40,
+  "fields": {
+   "question": "[判断题] 毛泽东在《反对本本》一书中强调马克思主义的“本本”是不需要学习的。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "毛泽东思想",
+   "difficulty": 18,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 41,
+  "fields": {
+   "question": "[单选题] 近代中国的最主要矛盾是( )。",
+   "questionType": 0,
+   "options": [
+    "A.封建主义与人民大众的矛盾",
+    "B.帝国主义与中华民族的矛盾",
+    "C.生产力与生产关系的矛盾",
+    "D.经济基础与上层建筑的矛盾"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 66,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 42,
+  "fields": {
+   "question": "[单选题] 近代中国的社会性质是( )。",
+   "questionType": 0,
+   "options": [
+    "A.前资本主义社会",
+    "B.半殖民地半封建社会",
+    "C.政治、经济、文化发展平衡的社会",
+    "D.资本主义社会"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 16,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 43,
+  "fields": {
+   "question": "[单选题] ( )的胜利,改变了整个世界历史的方向,划分了整个世界历史的时代,开辟了世界无产阶级社会主义革命的新纪元,标志着人类历史开始了由资本主义向社会主义转变的进程。",
+   "questionType": 0,
+   "options": [
+    "A.俄国十月革命",
+    "B.新文化运动",
+    "C.五四运动",
+    "D.辛亥革命"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 86,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 44,
+  "fields": {
+   "question": "[单选题] 新民主主义革命的领导阶级是( )。",
+   "questionType": 0,
+   "options": [
+    "A.资产阶级",
+    "B.小资产阶级",
+    "C.农民阶级",
+    "D.无产阶级"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 13,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 45,
+  "fields": {
+   "question": "[单选题] 新民主主义革命理论是在总结( )正反两方面实践经验的基础上形成的。",
+   "questionType": 0,
+   "options": [
+    "A.罢工运动",
+    "B.革命斗争",
+    "C.统一战线",
+    "D.党的建设"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 2,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 46,
+  "fields": {
+   "question": "[单选题] ( )是帝国主义统治中国和封建军阀实行专制统治的社会基础。",
+   "questionType": 0,
+   "options": [
+    "A.城市小资产阶级",
+    "B.工人阶级",
+    "C.封建地主阶级",
+    "D.资产阶级"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 3,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 47,
+  "fields": {
+   "question": "[单选题] 1945年,毛泽东在党的七大所作的( )的政治报告中,进一步把新民主主义的政治、经济、文化与党的基本纲领结合起来,进行了具体的阐述。",
+   "questionType": 0,
+   "options": [
+    "A.《论联合政府》",
+    "B.《新民主主义论》",
+    "C.《 发刊词》",
+    "D.《在晋绥干部会议上的讲话》"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 26,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 48,
+  "fields": {
+   "question": "[单选题] 毛泽东最早深入分析中国社会各阶级的经济地位及其在革命中的表现和作用的著作是( )",
+   "questionType": 0,
+   "options": [
+    "A.《星星之火,可以燎原》",
+    "B.《中国社会各阶级的分析》",
+    "C.《湖南农民运动考察报告》",
+    "D.《中国的红色政权为什么能够存在?》"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 1,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 49,
+  "fields": {
+   "question": "[单选题] ( )为农村革命根据地建设和发展提供了重要的主观条件。",
+   "questionType": 0,
+   "options": [
+    "A.广泛的群众基础",
+    "B.全国革命形势的向前发展",
+    "C.相当力量游击队的存在",
+    "D.党的领导的有力量及其政策的不错误"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 64,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 50,
+  "fields": {
+   "question": "[单选题] ( )理论是马克思主义中国化的重要理论成果,开辟了马克思主义中国化的发展道路。",
+   "questionType": 0,
+   "options": [
+    "A.旧民主主义革命",
+    "B.资本主义",
+    "C.共产主义",
+    "D.新民主主义革命"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 85,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 51,
+  "fields": {
+   "question": "[多选题] 以下属于十月革命的历史意义的是( )。",
+   "questionType": 1,
+   "options": [
+    "A.改变了整个世界历史的走向,开辟了世界资产阶级革命的新纪元",
+    "B.标志着人类历史开始了由资本主义向社会主义转变的进程",
+    "C.不仅促进了西方资本主义国家无产阶级的觉醒,也促进了东方殖民地半殖民地国家被压迫民族和被压迫人民的觉醒",
+    "D.使中国的资产阶级民主革命属于世界无产阶级社会主义革命的一部分"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 16,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 52,
+  "fields": {
+   "question": "[多选题] 1948年,毛泽东在《晋绥干部会议上的讲话》中完整地表述了新民主主义革命总路线的内容,即( )的革命。",
+   "questionType": 1,
+   "options": [
+    "A.无产阶级领导的",
+    "B.以资产阶级为主导的",
+    "C.人民大众的",
+    "D.反对帝国主义、封建主义和官僚资本主义"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 37,
+   "answer": [
+    "ACD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 53,
+  "fields": {
+   "question": "[多选题] 新民主主义革命总路线反映了中国革命的基本规律,指明了中国革命的( ),是新民主主义革命的指导路线。",
+   "questionType": 1,
+   "options": [
+    "A.成功时间",
+    "B.对象",
+    "C.动力",
+    "D.领导力量"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 86,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 54,
+  "fields": {
+   "question": "[多选题] 官僚资本主义是( )而发展起来的买办的封建的国家垄断资本主义。",
+   "questionType": 1,
+   "options": [
+    "A.依赖人民群众",
+    "B.依靠帝国主义",
+    "C.勾结封建势力",
+    "D.利用国家政权力量"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 20,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 55,
+  "fields": {
+   "question": "[多选题] 党在民主革命时期,形成了土地革命基本路线,其主要内容是( )",
+   "questionType": 1,
+   "options": [
+    "A.依靠贫雇农",
+    "B.团结中农",
+    "C.有步骤、有分别地消灭封建剥削制度",
+    "D.消灭中农"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 34,
+   "answer": [
+    "ABC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 56,
+  "fields": {
+   "question": "[多选题] 以下哪些是我党在新民主主义革命时期建设人民军队的经验总结:",
+   "questionType": 1,
+   "options": [
+    "A.坚持党对军队的绝对领导",
+    "B.坚持武装斗争",
+    "C.建设全心全意为人民服务的人民军队",
+    "D.坚持正确的战略战术原则"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 30,
+   "answer": [
+    "ACD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 57,
+  "fields": {
+   "question": "[多选题] 从总体上讲,党领导的革命统一战线,包含着两个联盟,即( )",
+   "questionType": 1,
+   "options": [
+    "A.工农联盟",
+    "B.与大资产阶级同盟",
+    "C.与民族资产阶级的联盟",
+    "D.与地主阶级同盟"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 83,
+   "answer": [
+    "AC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 58,
+  "fields": {
+   "question": "[多选题] 对于近代中国的国情,表述正确的有( )。",
+   "questionType": 1,
+   "options": [
+    "A.近代中国是一个半殖民地半封建性质的社会",
+    "B.帝国主义的侵略客观上为中国资本主义的发展创造了一定条件,使中国发展成为资本主义国家",
+    "C.帝国主义的侵略在一定程度上加速了封建社会自给自足的自然经济的解体",
+    "D.帝国主义列强通过政治、经济和文化的侵略使中国半殖民地化"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 11,
+   "answer": [
+    "ACD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 59,
+  "fields": {
+   "question": "[多选题] 在半殖民地半封建的近代中国,社会矛盾主要有( )。",
+   "questionType": 1,
+   "options": [
+    "A.帝国主义与和中华民族的矛盾",
+    "B.封建主义与人民大众的矛盾",
+    "C.帝国主义与官僚资本主义的矛盾",
+    "D.封建主义与中华民族的矛盾"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 62,
+   "answer": [
+    "AB"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 60,
+  "fields": {
+   "question": "[多选题] 新民主主义革命的动力,包括( )",
+   "questionType": 1,
+   "options": [
+    "A.无产阶级",
+    "B.农民阶级",
+    "C.城市小资产阶级",
+    "D.民族资产阶级"
+   ],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 56,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 61,
+  "fields": {
+   "question": "[填空题] 俄国十月革命的胜利,改变了整个世界历史的方向,划分了整个世界历史的时代,开辟了世界无产阶级社会主义革命的新纪元,标志着人类历史开始了由资本主义向( )转变的进程。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 56,
+   "answer": [
+    "社会主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 62,
+  "fields": {
+   "question": "[填空题] 中国资产阶级民主革命进入新民主主义的崭新阶段,其标志是( )的爆发。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 65,
+   "answer": [
+    "五四运动"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 63,
+  "fields": {
+   "question": "[填空题] 新民主主义文化,就是无产阶级领导的人民大众的反帝反封建的文化,即( )的、科学的、( )的文化。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 15,
+   "answer": [
+    "民族",
+    "大众"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 64,
+  "fields": {
+   "question": "[填空题] 区分新旧两种不同范畴的民主主义革命,根本的标志是( )的领导权是掌握在无产阶级手中还是掌握在资产阶级手中。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 76,
+   "answer": [
+    "革命"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 65,
+  "fields": {
+   "question": "[填空题] 新民主主义革命的政治纲领是:推翻( )和封建主义的统治,建立一个无产阶级领导的、以工农联盟为基础的、各革命阶级联合专政的新民主主义的共和国。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 44,
+   "answer": [
+    "帝国主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 66,
+  "fields": {
+   "question": "[填空题] 在近代中国,推翻帝国主义的压迫是中国走向( )和富强的前提。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 82,
+   "answer": [
+    "独立"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 67,
+  "fields": {
+   "question": "[填空题] 新民主主义革命的三大法宝是:统一战线、武装斗争和( )。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 78,
+   "answer": [
+    "党的建设"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 68,
+  "fields": {
+   "question": "[填空题] 新民主主义革命的指导思想是( )",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 64,
+   "answer": [
+    "马克思列宁主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 69,
+  "fields": {
+   "question": "[填空题] ( )是中国革命的主力军,其中的贫雇农是无产阶级最可靠的同盟军,而中农是无产阶级可靠的同盟军。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 25,
+   "answer": [
+    "农民"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 70,
+  "fields": {
+   "question": "[填空题] ( )是中国革命最基本的动力,是新的社会生产力的代表,是中国革命的领导力量。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 65,
+   "answer": [
+    "无产阶级"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 71,
+  "fields": {
+   "question": "[判断题] 帝国主义是中国革命的首要对象。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 13,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 72,
+  "fields": {
+   "question": "[判断题] 官僚资本主义对劳动人民的残酷剥削和对民族工商业的巧取豪夺,严重地束缚了中国社会生产力的发展,因此也是中国革命的对象。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 54,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 73,
+  "fields": {
+   "question": "[判断题] 和新民主主义国体相适应的政体,是民主集中制的人民代表大会制度。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 44,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 74,
+  "fields": {
+   "question": "[判断题] 新民主主义革命总路线反映了中国革命的基本规律,指明了中国革命的对象、动力、领导力量,是新民主主义革命的指导路线。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 94,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 75,
+  "fields": {
+   "question": "[判断题] 土地革命是民主革命的基本内容;武装斗争是中国革命的主要形式,是农村根据地建设和土地革命的强有力保证。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 16,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 76,
+  "fields": {
+   "question": "[判断题] “认清中国社会的性质,就是说,认清中国的国情,乃是认清一切革命问题的基本根据”是毛泽东的名言。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 49,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 77,
+  "fields": {
+   "question": "[判断题] 在经历了大革命的失败后,党总结革命的经验教训,提出了“须知政权是由枪杆子中取得的”的著名论断。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "新民主主义革命理论",
+   "difficulty": 9,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 78,
+  "fields": {
+   "question": "[单选题] 党在过渡时期的总路线、总任务是( )。",
+   "questionType": 0,
+   "options": [
+    "A.无产阶级领导的,人民大众的,反对帝国主义、封建主义、官僚资本主义的革命",
+    "B.在一个相当长的时期内,逐步实现国家的社会主义工业化,并逐步实现国家对农业、手工业和资本主义工商业的社会主义改造",
+    "C.鼓足干劲,力争上游,多快好省建设社会主义",
+    "D.以经济建设为中心,坚持四项基本原则,坚持改革开放,自力更生,艰苦创业,为把我国建设成为富强、民主、文明的社会主义现代化国家而奋斗"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 29,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 79,
+  "fields": {
+   "question": "[单选题] 在中华人民共和国成立之初,我国处在过渡时期,社会性质是( )。",
+   "questionType": 0,
+   "options": [
+    "A.新民主主义",
+    "B.社会主义",
+    "C.共产主义",
+    "D.资本主义"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 57,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 80,
+  "fields": {
+   "question": "[单选题] 下列对新民主主义社会的说法,准确的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.是共产主义社会的准备阶段",
+    "B.是一个独立的社会形态",
+    "C.前途是资本主义",
+    "D.是由新民主主义向社会主义转变的过渡时期"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 58,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 81,
+  "fields": {
+   "question": "[单选题] 1953年,毛泽东和中共中央提出了从新民主主义社会向社会主义社会转变的( )。",
+   "questionType": 0,
+   "options": [
+    "A.土地革命的总路线",
+    "B.社会主义建设的总路线",
+    "C.社会主义初级阶段的基本路线",
+    "D.过渡时期的总路线"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 4,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 82,
+  "fields": {
+   "question": "[单选题] 新民主主义革命在全国胜利及土地革命在全国完成后,国内的主要矛盾是( )。",
+   "questionType": 0,
+   "options": [
+    "A.帝国主义与中华民族的矛盾",
+    "B.封建主义与人民大众的矛盾",
+    "C.工人阶级与资产阶级的矛盾",
+    "D.农民阶级与地主阶级的矛盾"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 56,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 83,
+  "fields": {
+   "question": "[单选题] 新民主主义社会存在着多种经济成分,其中( )是私人资本主义经济向社会主义国营经济过渡的形式。",
+   "questionType": 0,
+   "options": [
+    "A.合作社经济",
+    "B.国家资本主义经济",
+    "C.自给自足的自然经济",
+    "D.个体经济"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 6,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 84,
+  "fields": {
+   "question": "[单选题] 新民主主义社会存在着多种经济成分,其中属于半社会主义性质的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.国营经济",
+    "B.个体经济",
+    "C.国家资本主义",
+    "D.合作社经济"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 5,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 85,
+  "fields": {
+   "question": "[单选题] 新民主主义社会存在着多种经济成分,其中属于完全的社会主义性质的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.合作社经济",
+    "B.个体经济",
+    "C.国营经济",
+    "D.国家资本主义经济"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 16,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 86,
+  "fields": {
+   "question": "[单选题] 中国共产党提出新民主主义社会和平过渡到社会主义社会的最初设想是在( )。",
+   "questionType": 0,
+   "options": [
+    "A.民主革命时期",
+    "B.中华人民共和国成立后",
+    "C.社会主义改造基本完成后",
+    "D.“文化大革命”时期"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 8,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 87,
+  "fields": {
+   "question": "[单选题] 党在过渡时期总路线中,实现工业化是主体,两翼是( )。",
+   "questionType": 0,
+   "options": [
+    "A.对农业、手工业和资本主义工商业的社会主义改造",
+    "B.正确处理农轻重关系",
+    "C.正确处理国家、集体、个人三者关系",
+    "D.正确处理工业化和三大改造关系"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 7,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 88,
+  "fields": {
+   "question": "[单选题] 关于我国进行社会主义改造的目的错误的说法是( )。",
+   "questionType": 0,
+   "options": [
+    "A.消灭资本家",
+    "B.确立社会主义生产关系",
+    "C.健全社会主义上层建筑",
+    "D.继续解放和发展生产力"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 59,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 89,
+  "fields": {
+   "question": "[单选题] 我国对个体手工业进行社会主义改造的主要方式是( )",
+   "questionType": 0,
+   "options": [
+    "A.赎买",
+    "B.统购统销",
+    "C.公私合营",
+    "D.合作化"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 4,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 90,
+  "fields": {
+   "question": "[单选题] 在对农业进行社会主义改造时建立的初级农业生产合作社属于( )",
+   "questionType": 0,
+   "options": [
+    "A.新民主主义性质",
+    "B.社会主义萌芽性质",
+    "C.半社会主义性质",
+    "D.社会主义性质"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 15,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 91,
+  "fields": {
+   "question": "[单选题] 国家资本主义有初级形式和高级形式之分,初级形式的国家资本主义是( )",
+   "questionType": 0,
+   "options": [
+    "A.个别企业的公私合营和全行业公私合营",
+    "B.供销小组、供销合作社和生产合作社",
+    "C.国家对私营工商业实行委托加工、计划订货、统购包销、经销代销等",
+    "D.互助组、初级社、高级社"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 81,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 92,
+  "fields": {
+   "question": "[单选题] 社会主义改造的完成具有深刻的历史意义,因为它基本解决了( )",
+   "questionType": 0,
+   "options": [
+    "A.无产阶级和资产阶级的矛盾",
+    "B.帝国主义和中华民族的矛盾",
+    "C.封建主义和人们大众的矛盾",
+    "D.官僚资产阶级和民族资产阶级的矛盾"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 84,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 93,
+  "fields": {
+   "question": "[多选题] 在新民主主义社会经济成分中,属于非社会主义的因素有( )。",
+   "questionType": 1,
+   "options": [
+    "A.私人资本主义经济",
+    "B.个体农业经济",
+    "C.个体手工业经济",
+    "D.国营经济"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 38,
+   "answer": [
+    "ABC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 94,
+  "fields": {
+   "question": "[多选题] 在中国进行社会主义改造的目的是( )。",
+   "questionType": 1,
+   "options": [
+    "A.消灭资本家和富农分子",
+    "B.确立社会主义生产关系",
+    "C.推翻帝国主义压迫",
+    "D.继续解放和发展生产力"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 54,
+   "answer": [
+    "BD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 95,
+  "fields": {
+   "question": "[多选题] 党提出了以“一化三改”为主要内容的过渡时期总路线,其具有实现的可能性包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.相对强大和迅速发展的社会主义国营经济为总路线的提出提供了物质基础",
+    "B.从低级到高级国家资本主义形式的出现成为提出总路线的又一个重要因素",
+    "C.广大农民走互助合作道路的要求为总路线的提出提供了重要依据",
+    "D.国民经济得以恢复,民主革命遗留任务已经完成"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 34,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 96,
+  "fields": {
+   "question": "[多选题] 中国新民主主义社会的主要特点包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.是个过渡性质的社会",
+    "B.政治上实行工人阶级领导的人民民主专政",
+    "C.经济上实行国营经济领导下的五种经济并存",
+    "D.社会主义公有制经济是主体"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 86,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 97,
+  "fields": {
+   "question": "[多选题] 过渡时期总路线的“两翼”包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.国家的社会主义工业化",
+    "B.对农业的社会主义改造",
+    "C.对手工业的社会主义改造",
+    "D.对资本主义工商业的社会主义改造"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 99,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 98,
+  "fields": {
+   "question": "[多选题] 在进行社会主义改造、向社会主义过渡的进程中,中国共产党积累的丰富经验是( )",
+   "questionType": 1,
+   "options": [
+    "A.坚持社会主义工业化建设和社会主义改造同时并举",
+    "B.采取积极引导、逐步过渡的方式",
+    "C.先工业化后改造",
+    "D.用和平方法进行改造"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 35,
+   "answer": [
+    "ABD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 99,
+  "fields": {
+   "question": "[多选题] 20世纪50年代中期,社会主义改造基本完成,标志着( )",
+   "questionType": 1,
+   "options": [
+    "A.社会主义制度在我国已经确立",
+    "B.我国进入了社会主义初级阶段",
+    "C.我国步入了社会主义改革时期",
+    "D.我国实现了新民主主义向社会主义过渡"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 12,
+   "answer": [
+    "ABD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 100,
+  "fields": {
+   "question": "[多选题] 社会主义基本制度的确立( )",
+   "questionType": 1,
+   "options": [
+    "A.是中国历史上最深刻最伟大的社会变革",
+    "B.为当代中国的一切发展进步奠定了制度基础",
+    "C.为中国特色社会主义制度的创新和发展提供了重要条件",
+    "D.标志中国已经跨越了社会主义初级阶段"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 66,
+   "answer": [
+    "ABC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 101,
+  "fields": {
+   "question": "[多选题] 中华人民共和国成立初期,中国处于新民主主义社会,其经济成分有( )。",
+   "questionType": 1,
+   "options": [
+    "A.社会主义国营经济与合作社经济",
+    "B.个体经济",
+    "C.私人资本主义经济",
+    "D.国家资本主义经济"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 83,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 102,
+  "fields": {
+   "question": "[多选题] 党在过渡时期的总路线的主要内容是“一化三改”,其中三改是指( )。",
+   "questionType": 1,
+   "options": [
+    "A.工业改造",
+    "B.对农业的社会主义改造",
+    "C.对个体手工业的社会主义改造",
+    "D.对资本主义工商业的社会主义改造"
+   ],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 35,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 103,
+  "fields": {
+   "question": "[填空题] 从中华人民共和国成立到社会主义改造基本完成,是我国从新民主主义到( )的过渡时期。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 89,
+   "answer": [
+    "社会主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 104,
+  "fields": {
+   "question": "[填空题] 在新民主主义社会中,( )的因素不论在经济上还是在政治上都已经居于领导地位,但非社会主义因素仍有很大的比重。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 7,
+   "answer": [
+    "社会主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 105,
+  "fields": {
+   "question": "[填空题] 党在过渡时期的总路线,将马克思列宁主义关于( )的理论在中国具体化了,为中国社会主义改造提供了行动指南。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 14,
+   "answer": [
+    "过渡时期"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 106,
+  "fields": {
+   "question": "[填空题] 资本主义工商业的社会主义改造采取从低级到高级的( )过渡形式。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 25,
+   "answer": [
+    "国家资本主义"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 107,
+  "fields": {
+   "question": "[填空题] 社会主义基本制度的确立,使广大( )真正成为国家的主人。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 71,
+   "answer": [
+    "劳动人民"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 108,
+  "fields": {
+   "question": "[判断题] 中国新民主主义社会是一个独立的社会形态。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 6,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 109,
+  "fields": {
+   "question": "[判断题] 国家对手工业的社会主义改造的第一步是办手工业供销小组。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 28,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 110,
+  "fields": {
+   "question": "[判断题] 在新民主主义社会中,社会主义的因素不论在经济上还是在政治上都已经居于领导地位,但非社会主义因素仍有很大比重。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 27,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 111,
+  "fields": {
+   "question": "[判断题] “红色资本家”荣毅仁担任过国家副主席。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 89,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 112,
+  "fields": {
+   "question": "[判断题] 实践证明,中国可以在没有实现工业化的情况下进入社会主义。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 72,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 113,
+  "fields": {
+   "question": "[判断题] 社会主义基本制度的确立,是马克思列宁主义关于社会主义革命理论在中国的正确运用和创造性发展的结果。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 14,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 114,
+  "fields": {
+   "question": "[判断题] 中国只有在实现工业化的情况下才能进入社会主义",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 61,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 115,
+  "fields": {
+   "question": "[判断题] 经济文化比较落后的国家不能够先于发达国家实行社会主义革命。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 55,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 116,
+  "fields": {
+   "question": "[判断题] 中华人民共和国成立,实现了从新民主主义社会到社会主义社会的转变。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 70,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 117,
+  "fields": {
+   "question": "[判断题] 中国进入社会主义的前提是实现工业化。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义改造理论",
+   "difficulty": 8,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 118,
+  "fields": {
+   "question": "[单选题] 中国共产党在实践中开始探索符合中国国情的社会主义建设道路的标志是( )。",
+   "questionType": 0,
+   "options": [
+    "A.中共八大召开",
+    "B.毛泽东发表《论十大关系》",
+    "C.毛泽东发表《关于正确处理人民内部矛盾的问题》",
+    "D.中共中央提出社会主义建设总路线"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 59,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 119,
+  "fields": {
+   "question": "[单选题] 毛泽东在《论十大关系》中阐述的首要的经济关系是( )。",
+   "questionType": 0,
+   "options": [
+    "A.国防建设和经济建设的关系",
+    "B.中央与地方的关系",
+    "C.沿海工业和内地工业的关系",
+    "D.农业、重工业和轻工业的关系"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 84,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 120,
+  "fields": {
+   "question": "[单选题] 社会主义改造基本完成后,国家政治生活的主题是( )。",
+   "questionType": 0,
+   "options": [
+    "A.探索本国建设社会主义的道路",
+    "B.不断解决仍然存在的敌我矛盾,同时正确处理人民内部矛盾",
+    "C.正确处理人民内部矛盾",
+    "D.集中力量解决人民对于建立先进的工业国的要求同落后的农业国现实之间的矛盾"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 82,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 121,
+  "fields": {
+   "question": "[单选题] 毛泽东首次明确地把农业、轻工业、重工业三者的关系提到工业化道路的高度加以考查的报告是( )。",
+   "questionType": 0,
+   "options": [
+    "A.《论十大关系》",
+    "B.《关于正确处理人民内部矛盾的问题》",
+    "C.《为争取国家财政经济状况基本好转而斗争》",
+    "D.1961年《在扩大的中央工作会议上的讲话》"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 57,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 122,
+  "fields": {
+   "question": "[单选题] 新中国成立后,工人阶级与民族资产阶级之间的矛盾属于( )。",
+   "questionType": 0,
+   "options": [
+    "A.敌我矛盾",
+    "B.阶级矛盾",
+    "C.人民内部矛盾",
+    "D.对抗性矛盾"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 18,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 123,
+  "fields": {
+   "question": "[单选题] 无产阶级政党的根本组织原则与指导党内生活的基本准则是( )。",
+   "questionType": 0,
+   "options": [
+    "A.群众路线",
+    "B.民主集中制",
+    "C.集体领导制度",
+    "D.理论学习"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 29,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 124,
+  "fields": {
+   "question": "[单选题] 毛泽东提出关于发展国民经济的总方针,以下不正确的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.以工业为主导",
+    "B.以农轻重为序",
+    "C.以就业为导向",
+    "D.以农业为基础"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 96,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 125,
+  "fields": {
+   "question": "[单选题] 毛泽东提出的“两参一改三结合”不包括( )。",
+   "questionType": 0,
+   "options": [
+    "A.工人参加管理",
+    "B.改革不合理的规章制度",
+    "C.干部不参加劳动",
+    "D.工人群众、领导干部和技术人员三结合"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 48,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 126,
+  "fields": {
+   "question": "[单选题] 在全党和全国工作重心由革命转向建设的时候,面临着一个( )问题。",
+   "questionType": 0,
+   "options": [
+    "A.怎样建设社会主义",
+    "B.如何认识和处理社会主义社会矛盾",
+    "C.建设一个什么样的党,怎样建设党",
+    "D.是否要走中国工业化道路"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 49,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 127,
+  "fields": {
+   "question": "[单选题] 社会主义改造任务基本完成后,全国人民的主要任务是( )。",
+   "questionType": 0,
+   "options": [
+    "A.进行思想战线上的社会主义革命",
+    "B.坚持无产阶级专政下继续革命",
+    "C.开展社会主义道路与资本主义道路的决战",
+    "D.集中力量发展社会生产力"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 28,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 128,
+  "fields": {
+   "question": "[单选题] 1958年10月,山东范县县委书记作报告:“人民进入新乐园,吃穿喝用不要钱,人民都说天堂好,天堂不如新乐园。”这一现象产生的影响是( )。",
+   "questionType": 0,
+   "options": [
+    "A.提高了生产力",
+    "B.调动了农民的积极性",
+    "C.出现了农村城镇化趋势",
+    "D.破坏了农村生产力"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 49,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 129,
+  "fields": {
+   "question": "[单选题] 《论十大关系》中不包括下列( )。",
+   "questionType": 0,
+   "options": [
+    "A.重工业、轻工业和农业的关系",
+    "B.沿海工业和内地工业的关系",
+    "C.南方和北方的关系",
+    "D.是非关系"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 96,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 130,
+  "fields": {
+   "question": "[单选题] 毛泽东发表的《论十大关系》成为探索中国特色的社会主义建设道路的先声,文章中提出我国社会主义建设必须围绕着一个基本方针,就是( )。",
+   "questionType": 0,
+   "options": [
+    "A.正确区分和处理两类不同性质的矛盾",
+    "B.调动国内外一切积极因素,把中国建设成为社会主义强国",
+    "C.中国共产党和民主党派“长期共存、互相监督”",
+    "D.“调整、巩固、充实、提高”的方针"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 63,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 131,
+  "fields": {
+   "question": "[单选题] 在中共“八大”上,提出社会主义经济体制应实行“三个主体,三个补充”重要设想的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.陈云",
+    "B.周恩来",
+    "C.刘少奇",
+    "D.毛泽东"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 15,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 132,
+  "fields": {
+   "question": "[单选题] 在经济建设中,毛泽东反复强调的方针是( )。",
+   "questionType": 0,
+   "options": [
+    "A.快速发展",
+    "B.稳步增长",
+    "C.统筹兼顾",
+    "D.效率为主"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 80,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 133,
+  "fields": {
+   "question": "[单选题] 在中共“八大”上,提出社会主义经济体制应实行“三个主体,三个补充”重要设想的是( )。",
+   "questionType": 0,
+   "options": [
+    "A.陈云",
+    "B.周恩来",
+    "C.刘少奇",
+    "D.毛泽东"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 33,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 134,
+  "fields": {
+   "question": "[多选题] 毛泽东提出的关于正确处理农业、轻工业和重工业关系问题的思想有( )。",
+   "questionType": 1,
+   "options": [
+    "A.发展工业和发展农业同时并举",
+    "B.多发展重工业,少发展一些农业和轻工业",
+    "C.以农、轻、重为序安排国民经济的方针",
+    "D.以农业为基础,以工业为主导的总方针"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 82,
+   "answer": [
+    "ACD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 135,
+  "fields": {
+   "question": "[多选题] 在正确认识和处理社会主义社会矛盾的问题上,党提出并回答的重要理论问题是( )。",
+   "questionType": 1,
+   "options": [
+    "A.如何消除社会主义社会的矛盾",
+    "B.社会主义社会是否存在矛盾",
+    "C.社会主义社会存在什么性质的矛盾",
+    "D.如何正确处理和解决社会主义社会的矛盾"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 71,
+   "answer": [
+    "BCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 136,
+  "fields": {
+   "question": "[多选题] 下列属于人民内部矛盾的有( )。",
+   "questionType": 1,
+   "options": [
+    "A.工人阶级和其它劳动人民同民族资产阶级的矛盾",
+    "B.政府和人民群众之间的矛盾",
+    "C.领导同被领导之间的矛盾",
+    "D.国家机关某些工作人员的官僚主义作风同群众之间的矛盾"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 39,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 137,
+  "fields": {
+   "question": "[多选题] 关于经济运行机制方面,毛泽东提出了“两参一改三结合”的思路。其中包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.企业建立合理的规章制度和严格的责任制",
+    "B.实行民主管理",
+    "C.实行干部参加劳动、工人参加管理",
+    "D.改革不合理的规章制度"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 57,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 138,
+  "fields": {
+   "question": "[多选题] 从20世纪50年后期开始,由于“左”的错误的影响,我国在社会主义建设中的主要错误有( )。",
+   "questionType": 1,
+   "options": [
+    "A.急于求成,盲目冒进",
+    "B.把变革生产关系绝对化,以为社会主义所有制形式越大越公越好",
+    "C.不重视发展生产力",
+    "D.坚持以阶级斗争为纲"
+   ],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 25,
+   "answer": [
+    "ABD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 139,
+  "fields": {
+   "question": "[填空题] 毛泽东认为社会主义社会存在两类不同性质的矛盾,分别是敌我矛盾和( )。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 23,
+   "answer": [
+    "人民内部矛盾"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 140,
+  "fields": {
+   "question": "[填空题] 毛泽东认为,对于科学文化领域里的矛盾,实行百花齐放、( )的方针。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 28,
+   "answer": [
+    "百家争鸣"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 141,
+  "fields": {
+   "question": "[填空题] 毛泽东指出,对于物质利益、分配方面的人民内部矛盾,应采取的方针是( )和和平解决。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 83,
+   "answer": [
+    "民主协商"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 142,
+  "fields": {
+   "question": "[填空题] 在党的八大上,毛泽东提出,“我们的目标,是想造成一个又有( )又有民主,又有( )又有自由,又有统一意志、又有个人心情舒畅、生动活泼,那样一种政治局面,以利于社会主义革命和社会主义建设”。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 25,
+   "answer": [
+    "集中",
+    "纪律"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 143,
+  "fields": {
+   "question": "[填空题] 健全( )和集体领导制度,加强执政党建设,是社会主义事业顺利发展的政治保证。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 68,
+   "answer": [
+    "民主集中制"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 144,
+  "fields": {
+   "question": "[判断题] 中国共产党在其犯严重错误的时候,它的性质和宗旨都是没有发生改变的。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 41,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 145,
+  "fields": {
+   "question": "[判断题] 中国社会主义现代化主要以外援为主,自力更生为辅。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 30,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 146,
+  "fields": {
+   "question": "[判断题] 社会主义社会的基本矛盾是要通过革命的方式进行解决。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 13,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 147,
+  "fields": {
+   "question": "[判断题] 关于新中国成立后走中国工业化道路,调整和完善所有制结构,陈云提出了著名的“三个主体,三个补充”理论。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 11,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 148,
+  "fields": {
+   "question": "[判断题] 1956年社会主义改造完成后,我国的基本国情是仍处于并将长期处于社会主义初级阶段。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 50,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 149,
+  "fields": {
+   "question": "[判断题] 在处理人民内部矛盾上,正确的方法是“批评-团结-批评”的方法。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 63,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 150,
+  "fields": {
+   "question": "[判断题] 独立自主就是关起门来搞建设。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 35,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 151,
+  "fields": {
+   "question": "[判断题] 中共八大明确提出社会主义社会的主要任务是阶级斗争。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 13,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 152,
+  "fields": {
+   "question": "[判断题] 在1954年被第一次提出的四个现代化为工业、农业、交通运输业和国防业的现代化。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "社会主义建设道路初步探索理论成果",
+   "difficulty": 27,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 153,
+  "fields": {
+   "question": "[单选题] 社会主义本质理论揭示了社会主义的根本任务是( ),这合乎科学社会主义基本原则,体现了中国社会主义初级阶段发展实践的迫切要求。",
+   "questionType": 0,
+   "options": [
+    "A.大力发展经济",
+    "B.解放和发展生产力",
+    "C.完善分配制度",
+    "D.巩固民主政治"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 35,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 154,
+  "fields": {
+   "question": "[单选题] 社会主义本质理论合乎科学社会主义基本原则,体现了( )发展实践的迫切要求。",
+   "questionType": 0,
+   "options": [
+    "A.社会主义中级阶段",
+    "B.社会主义高级阶段",
+    "C.社会主义初级阶段",
+    "D.社会主义最终阶段"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 66,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 155,
+  "fields": {
+   "question": "[单选题] 社会主义首先要解决的问题是( )",
+   "questionType": 0,
+   "options": [
+    "A.生产力发展",
+    "B.生产资料公有制",
+    "C.人民公社",
+    "D.民主"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 23,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 156,
+  "fields": {
+   "question": "[单选题] 社会主义本质理论包括了社会主义社会的( )问题,又包括了以生产关系为基础的社会关系问题,是一个有机整体。",
+   "questionType": 0,
+   "options": [
+    "A.文化发展",
+    "B.生产力",
+    "C.法制",
+    "D.经济基础"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 81,
+   "answer": [
+    "B"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 157,
+  "fields": {
+   "question": "[单选题] 为了更好的推进中国特色社会主义建设,我们必须在( )与生产关系的相互作用中,在根本任务与发展目标的辩证统一中,全面准确地把握社会主义的本质。",
+   "questionType": 0,
+   "options": [
+    "A.生产劳动",
+    "B.生产方式",
+    "C.生产资料",
+    "D.生产力"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 27,
+   "answer": [
+    "D"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 158,
+  "fields": {
+   "question": "[单选题] 要坚持把以经济建设为中心同四项基本原则、改革开放这两个基本点统一于( )。",
+   "questionType": 0,
+   "options": [
+    "A.发展中国特色社会主义的伟大实践",
+    "B.社会主义初级阶段",
+    "C.社会主义市场经济",
+    "D.全面建成小康社会"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 30,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 159,
+  "fields": {
+   "question": "[单选题] 1978年,邓小平在为党的十一届三中全会准备的中央工作会议上发表了( )的重要讲话,提出要着手解决党的思想路线问题。",
+   "questionType": 0,
+   "options": [
+    "A.《解放思想,实事求是,团结一致向前看》",
+    "B.《关于建国以来党的若干历史问题的决议》",
+    "C.《一切从社会主义初级阶段出发》",
+    "D.《我国方针政策的两个基本点》"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 56,
+   "answer": [
+    "A"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 160,
+  "fields": {
+   "question": "[单选题] 邓小平认为建设中国特色社会主义的首要的基本的理论问题是( )。",
+   "questionType": 0,
+   "options": [
+    "A.什么是马克思主义,怎样发展马克思主义",
+    "B.建设什么样的党,怎样建设党",
+    "C.什么是社会主义,怎样建设社会主义",
+    "D.什么是发展,实现怎样的发展"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 6,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 161,
+  "fields": {
+   "question": "[单选题] “三个有利于”标准是( )。",
+   "questionType": 0,
+   "options": [
+    "A.判断姓“社”、姓“资”的标准",
+    "B.实用主义标准",
+    "C.判断各项工作得失成败的标准",
+    "D.判断传统和现代的标准"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 45,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 162,
+  "fields": {
+   "question": "[单选题] 我们党作出进行社会主义市场经济体制改革的重大决定是在( )。",
+   "questionType": 0,
+   "options": [
+    "A.党的十二大",
+    "B.党的十三大",
+    "C.党的十四大",
+    "D.党的十五大"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 49,
+   "answer": [
+    "C"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 163,
+  "fields": {
+   "question": "[多选题] 下列关于社会主义的说法,正确的是( )",
+   "questionType": 1,
+   "options": [
+    "A.高度发达的生产力是实现社会主义的物质基础",
+    "B.解放生产力是为促进生产力的发展开辟道路",
+    "C.解放和发展生产力是中国特色社会主义的根本任务",
+    "D.社会主义的根本目标是实现同步富裕"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 2,
+   "answer": [
+    "ABC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 164,
+  "fields": {
+   "question": "[多选题] 社会主义就是要使全体社会成员过上富裕幸福的生活,而资本主义由于( )的存在,不可能实现共同富裕。",
+   "questionType": 1,
+   "options": [
+    "A.私有制",
+    "B.公有制主体地位",
+    "C.剥削",
+    "D.按劳分配"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 8,
+   "answer": [
+    "AC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 165,
+  "fields": {
+   "question": "[多选题] 近40年的实践证明,改革开放是( )。",
+   "questionType": 1,
+   "options": [
+    "A.决定当代中国命运的关键抉择",
+    "B.党和人民事业大踏步赶上时代潮流的重要法宝",
+    "C.发展中国特色社会主义的必由之路",
+    "D.社会主义社会发展的直接动力"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 47,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 166,
+  "fields": {
+   "question": "[多选题] 四项基本原则包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.坚持无产阶级专政",
+    "B.坚持共产党领导",
+    "C.坚持马列主义和毛泽东思想",
+    "D.坚持社会主义道路"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 83,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 167,
+  "fields": {
+   "question": "[多选题] 十二届六中全会提出的现代化建设总体布局包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.以经济建设为中心",
+    "B.坚定不移地进行经济体制改革",
+    "C.坚定不移地进行政治体制改革",
+    "D.坚定不移地加强精神文明建设"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 46,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 168,
+  "fields": {
+   "question": "[多选题] 十三大提出的党的基本路线的内容包括( )。",
+   "questionType": 1,
+   "options": [
+    "A.以经济建设为中心",
+    "B.坚持四项基本原则,坚持改革开放",
+    "C.自力更生,艰苦创业",
+    "D.为把我国建设成为富强、民主、文明的社会主义现代化国家而奋斗"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 87,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 169,
+  "fields": {
+   "question": "[多选题] 党的基本路线高度概括了党在社会主义初级阶段的( )。",
+   "questionType": 1,
+   "options": [
+    "A.奋斗目标",
+    "B.基本途径",
+    "C.根本保证",
+    "D.领导力量和依靠力量"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 67,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 170,
+  "fields": {
+   "question": "[多选题] 1992年初,邓小平在南方谈话中对社会主义本质问题做出了总结性的理论概括,他指出:“社会主义的本质,是( )”。",
+   "questionType": 1,
+   "options": [
+    "A.解放生产力,发展生产力",
+    "B.消灭剥削",
+    "C.消除两极分化",
+    "D.最终达到共同富裕"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 86,
+   "answer": [
+    "ABCD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 171,
+  "fields": {
+   "question": "[多选题] “计划经济不等于社会主义,资本主义也有计划;市场经济不等于资本主义,社会主义也有市场。”邓小平这一论断的内涵是( )。",
+   "questionType": 1,
+   "options": [
+    "A.计划和市场是不能兼容的",
+    "B.计划和市场都是经济手段",
+    "C.计划经济和市场经济不是划分社会制度的标志",
+    "D.以上都正确"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 18,
+   "answer": [
+    "BC"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 172,
+  "fields": {
+   "question": "[多选题] 邓小平开创性地提出了社会主义本质、社会主义初级阶段以及( )等具有浓厚中国特色的新概念新范畴,建构了中国特色社会主义理论的基本框架。",
+   "questionType": 1,
+   "options": [
+    "A.党的基本路线",
+    "B.“三个代表”",
+    "C.改革开放",
+    "D.“一国两制”"
+   ],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 82,
+   "answer": [
+    "ACD"
+   ],
+   "score": 4
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 173,
+  "fields": {
+   "question": "[填空题] 1992年初,邓小平在南方谈话中对社会主义本质作了总结性理论概括:“社会主义的本质,是( ),发展生产力,( ),消除两极分化,最终达到( )。”",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 53,
+   "answer": [
+    "解放生产力",
+    "消灭剥削",
+    "共同富裕"
+   ],
+   "score": 6
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 174,
+  "fields": {
+   "question": "[填空题] 发展两岸关系和实现和平统一的基础是坚持( )的原则。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 37,
+   "answer": [
+    "一个中国"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 175,
+  "fields": {
+   "question": "[填空题] 党的十一届三中全会决定把党和国家的工作重点转移到( )上来。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 73,
+   "answer": [
+    "社会主义现代化建设"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 176,
+  "fields": {
+   "question": "[填空题] 1992年,邓小平在( )中对社会主义本质问题作出了总结性的理论概括,他指出:“社会主义的本质,是解放生产力,发展生产力,消灭剥削,消除两极分化,最终达到共同富裕。”。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 78,
+   "answer": [
+    "南方谈话"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 177,
+  "fields": {
+   "question": "[填空题] 社会主义实现共同富裕的重要保障是( ),消除两极分化。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 68,
+   "answer": [
+    "消灭剥削"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 178,
+  "fields": {
+   "question": "[填空题] 邓小平强调解放和发展生产力,纠正了忽视发展生产力的错误观念,反映了我国社会主义初级阶段发展生产力的迫切要求,明确了社会主义基本制度建立后还要通过( )进一步解放生产力的任务。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 98,
+   "answer": [
+    "改革"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 179,
+  "fields": {
+   "question": "[填空题] ( )是社会主义社会发展的直接动力。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 41,
+   "answer": [
+    "改革"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 180,
+  "fields": {
+   "question": "[填空题] 邓小平反复强调“两手抓、两手都要硬”,必须抓好社会主义( )和民主法制建设,实现社会全面进步。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 31,
+   "answer": [
+    "精神文明建设"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 181,
+  "fields": {
+   "question": "[填空题] 邓小平深刻总结我国社会主义建设正反两方面经验,借鉴世界社会主义历史经验,作出把党和国家工作中心转移到经济建设上来、实行( )的历史性决策。",
+   "questionType": 2,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 61,
+   "answer": [
+    "改革开放"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 182,
+  "fields": {
+   "question": "[判断题] 社会主义初级阶段是所有国家进行社会主义建设都要经历的阶段。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 64,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 183,
+  "fields": {
+   "question": "[判断题] 在社会主义初级阶段,阶级矛盾和阶级斗争仍在一定范围内长期存在。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 50,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 184,
+  "fields": {
+   "question": "[判断题] “一个中心、两个基本点”是社会主义初级阶段基本路线的最主要内容。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 84,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 185,
+  "fields": {
+   "question": "[判断题] “向科学进军”是邓小平在1956年代表党中央提出来的。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 5,
+   "answer": [
+    "错"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 186,
+  "fields": {
+   "question": "[判断题] 台湾问题是中国国内战争遗留下来的问题,其实质是内政问题。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 15,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 187,
+  "fields": {
+   "question": "[判断题] 马克思主义中国化第二次历史性飞跃的理论成果是中国特色社会主义理论体系。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 56,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 188,
+  "fields": {
+   "question": "[判断题] 邓小平理论第一次比较系统地初步回答了中国社会主义的发展道路、发展阶段、根本任务、发展动力、外部条件、政治保证、战略步骤、党的领导和依靠力量以及祖国统一等一系列基本问题。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 11,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 189,
+  "fields": {
+   "question": "[判断题] 邓小平理论指导我们党制定了在社会主义初级阶段的基本路线。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 27,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 190,
+  "fields": {
+   "question": "[判断题] 邓小平理论之所以能够如此,就在于看清了世界和中国的发展大势,深刻了解中国人民和中华民族的深沉愿望,把握住中国发展的历史规律。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 38,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "model": "modelsApp.questionslist",
+  "pk": 191,
+  "fields": {
+   "question": "[判断题] 邓小平理论第一次比较系统地初步回答了中国社会主义的发展道路、发展阶段、根本任务等一系列基本问题,为我们坚持走自己的路,建设中国特色社会主义提供了根本遵循。",
+   "questionType": 3,
+   "options": [],
+   "knowledgePoint": "邓小平理论",
+   "difficulty": 44,
+   "answer": [
+    "对"
+   ],
+   "score": 2
+  }
+ }
+]
