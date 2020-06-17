@@ -28,7 +28,8 @@ class UserViewSet(mixins.RetrieveModelMixin, mixins.UpdateModelMixin,viewsets.Ge
     queryset = User.objects.all()
     serializer_class = UserSerializer
    
-
+   
+'''
 @swagger_auto_schema(methods=['POST'], request_body=loginSerializer)
 @api_view(['POST'])
 def login(request):
@@ -46,6 +47,8 @@ def login(request):
                 return Response('登录成功')
         else:
             return Response('用户id错误')
+'''
+
 
 @api_view(['GET'])
 def login(request, userId,pwd):

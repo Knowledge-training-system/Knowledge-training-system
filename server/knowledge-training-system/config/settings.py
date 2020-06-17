@@ -41,7 +41,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'users.apps.UsersConfig',
     'drf_yasg',
+    'modelsApp', 
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -78,14 +85,23 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'KTS',
-        'USER': 'root',
-        'PASSWORD': '18423118112',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
+    'default': { 
+        'ENGINE': 'django.db.backends.mysql',    # 数据库引擎
+        'NAME': 'ktsdb', # 数据库名称
+        'HOST': '127.0.0.1', # 数据库地址，本机 ip 地址 127.0.0.1 
+        'PORT': '3306', # 端口 
+        'USER': 'root',  # 数据库用户名
+        'PASSWORD': 'Xch13998151318+', # 数据库密码
+    } 
+    
+    #'default2': {
+    #    'ENGINE': 'django.db.backends.mysql',
+    #    'NAME': 'KTS',
+    #    'USER': 'root',
+    #    'PASSWORD': '18423118112',
+    #    'HOST': '127.0.0.1',
+    #    'PORT': '3306',
+    #}
 }
 
 
