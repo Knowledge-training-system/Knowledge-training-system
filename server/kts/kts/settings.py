@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'kts.urls'
+ROOT_URLCONF = 'kts.settings'
 
 TEMPLATES = [
     {
