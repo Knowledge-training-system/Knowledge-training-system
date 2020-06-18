@@ -83,8 +83,10 @@ export default {
     handleCommand(command) {
       if (command == '账号管理'){
         this.page = '账号管理'
+        this.$router.push({path: '/teacher/account', replace: true})
         //重定向路由
       }else{
+        this.$router.push({path: '/login', replace: true})
         //重定向路由到登录界面，同时清空所有全局用户数据
       }
     },

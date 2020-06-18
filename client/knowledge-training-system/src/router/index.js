@@ -7,6 +7,7 @@ import testPaper from '@/components/testPaper'
 import manageStudents from '@/components/manageStudents'
 import manageTestpaper from '@/components/manageTestpaper'
 import Teacher from '@/components/Teacher'
+import account from '@/components/account'
 import VueResource from 'vue-resource'
 
 
@@ -58,6 +59,11 @@ export default new Router({
           path: 'manage',
           name: 'manageTestpaper',
           component: manageTestpaper
+        },
+        {
+          path: 'account',
+          name: 'account',
+          component: account
         }
       ]
 
