@@ -42,7 +42,6 @@
 
 <script>
 export default {
-  name: "teacherInfo",
   data() {
     return {
       // 等待补充

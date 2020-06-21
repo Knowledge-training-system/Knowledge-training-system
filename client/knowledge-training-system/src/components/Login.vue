@@ -107,6 +107,7 @@ export default {
               alert("error!");
             }
           ),
+        
           this.$http
             .post(
               this.global.baseURL +
@@ -123,7 +124,13 @@ export default {
                 this.global.user.userInfo = response.body;
                 console.log(this.global.user.userInfo);
                 console.log(response);
-                this.$router.push({ path: "/teacher", replace: true });
+                if (this.loginForm.userId[0] == '1'){
+                  this.$router.push({ path: "/teacher", replace: true });
+                }else if (this.loginForm.userId[0] == '0'){
+                  this.$router.push({ path: "/student", replace: true });
+                }else{
+                  console.log("用户ID错误。")
+                }
               },
               response => {
                 // error callback
