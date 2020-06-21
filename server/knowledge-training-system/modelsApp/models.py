@@ -9,7 +9,7 @@ from django.contrib.auth import get_user_model
 print(get_user_model())
 
 knowledgePoints=['毛泽东思想','新民主主义革命理论','社会主义改造理论','社会主义建设道路初步探索理论成果','邓小平理论']#,'三个代表重要思想','科学发展观','习近平新时代思想','中特社总任务','五位一体总体布局']
-difficultyChoices=[(i,i) for i in range(1,10)]
+difficultyChoices=[(i,i) for i in range(3,8)]
 questionTypeChoices=[(i,i) for i in range(0,4)]
 knowledgePointsChoices=[(i,i) for i in knowledgePoints]
 

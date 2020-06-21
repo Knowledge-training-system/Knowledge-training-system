@@ -27,7 +27,7 @@ class releaseExaminationSerializer(serializers.Serializer):#.ModelSerializer
     
     releaseTeacherId = serializers.IntegerField()
     knowledgePointList = serializers.MultipleChoiceField(choices = knowledgeChoices)
-    questionTypeList = serializers.MultipleChoiceField(choices = questionTypesChoices)
+    #questionTypeList = serializers.MultipleChoiceField(choices = questionTypesChoices)
     questionNumber0 = serializers.IntegerField()
     questionNumber1 = serializers.IntegerField()
     questionNumber2 = serializers.IntegerField()

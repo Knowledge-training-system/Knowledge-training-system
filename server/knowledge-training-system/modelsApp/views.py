@@ -81,7 +81,7 @@ def releaseExamination(request):
     request.encoding='utf-8'
     releaseTeacherId = request.data['releaseTeacherId'] #.username
     knowledgePointList = request.data['knowledgePointList']
-    questionTypeList = request.data['questionTypeList']
+    #questionTypeList = request.data['questionTypeList']
     questionNumber0 = request.data['questionNumber0']
     questionNumber1 = request.data['questionNumber1']
     questionNumber2 = request.data['questionNumber2']
@@ -121,16 +121,46 @@ def releaseExamination(request):
     if questionNumber3 > len(QIdList3):
         questionNumber3 = len(QIdList3)
     questionNumberList = [questionNumber0, questionNumber1, questionNumber2, questionNumber3]
-
+    
+    k = -1
     for studentId in studentIdList:
+        k += 1
         QIdList = random.sample(QIdList0, questionNumber0) + random.sample(QIdList1, questionNumber1) + random.sample(QIdList2, questionNumber2) + random.sample(QIdList3, questionNumber3) 
         maxScore = 0
         for QId in QIdList:
             maxScore += QuestionsList.objects.get(questionId = QId).score
         paper1 = Paper(studentId = studentId, QIdList = QIdList, releaseTeacherId = releaseTeacherId, submitStartTime = submitStartTime, submitEndTime = submitEndTime, questionNumberList = questionNumberList, maxScore = maxScore)
         paper1.save()
+        if k==0:
+            firstPaperId = paper1.paperId
+    
+    data={}
+    data['releasePaperNumber'] = len(studentIdList)
 
-    return Response(data = f'已成功发布{len(studentIdList)}份试卷,试题为{QIdList}') 
+    thePaper = PaperSerializer(Paper.objects.get(paperId = firstPaperId)).data
+    data['firstPaperId'] = thePaper['paperId']
+    data['submitted'] = thePaper['submitted']
+    submitted = thePaper['submitted']
+    data['submitStartTime'] = thePaper['submitStartTime']
+    data['submitEndTime'] = thePaper['submitEndTime']
+    data['questiions'] = []
+    PaperData = PaperSerializer(thePaper).data
+    pos = -1
+    #if submitted!=1:
+    for i in range(4):
+        for j in range(ast.literal_eval(PaperData['questionNumberList'])[i]):
+            pos += 1
+            QId = ast.literal_eval(PaperData['QIdList'])[pos]
+            aQuestionData = QuestionSerializer(QuestionsList.objects.get(questionId = QId)).data
+            aQuestionData['options'] = ast.literal_eval(aQuestionData['options'])
+            aQuestionData['trueAnswer'] = ast.literal_eval(aQuestionData['answer'])
+            del aQuestionData['answer']
+            
+                #aQuestionData['trueAnswer'] = ''
+            #[['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
+            #[ ['民族','a'],['A'],['A'],['民族'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
+            data['questiions'].append(aQuestionData)
+    return Response(data = data) 
 
 
 @api_view(['GET'])
@@ -154,8 +184,30 @@ def getUserAllPaper(request, userId):
         aPaperDict['submitStartTime'] = paper['submitStartTime']
         aPaperDict['submitEndTime'] = paper['submitEndTime']
         data.append(aPaperDict)
+    return Response(data = data)  
 
 
+@api_view(['GET'])
+def getTeacherAllPaper(request, userId):
+    UserAllPaper = Paper.objects.all().filter(releaseTeacherId = userId)
+    data=[]
+    PaperData = PaperSerializer(UserAllPaper, many=True).data
+    for paper in PaperData:
+        aPaperDict = {}
+        aPaperDict['paperId'] = paper['paperId']
+        aPaperDict['submitted'] = paper['submitted']  #是否已提交
+        sum = 0
+        for Num in ast.literal_eval(paper['questionNumberList']):
+            #print(Num)
+            sum += Num
+        
+        aPaperDict['questionTotalNumber'] = sum #总题数
+        
+        aPaperDict['score'] = paper['score']
+        aPaperDict['maxScore'] = paper['maxScore']
+        aPaperDict['submitStartTime'] = paper['submitStartTime']
+        aPaperDict['submitEndTime'] = paper['submitEndTime']
+        data.append(aPaperDict)
     return Response(data = data)  
 
 

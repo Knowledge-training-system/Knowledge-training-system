@@ -31,6 +31,7 @@ urlpatterns = [
     #教师端管理题库问题相关url
     path('AllQuestions/searchQuestion/<str:questionType>/<str:knowledgePoint>/<str:difficulty>', modelsApp_views.searchQuestion),
     path('AllQuestions/releaseExamination', modelsApp_views.releaseExamination), 
+    path('Teacher/<int:userId>/AllPaper', modelsApp_views.getTeacherAllPaper),
     
     #学生端答卷相关url
     path('Student/<int:userId>/AllPaper', modelsApp_views.getUserAllPaper), 
