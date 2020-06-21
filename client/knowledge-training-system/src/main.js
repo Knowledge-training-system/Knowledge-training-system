@@ -7,15 +7,17 @@ import 'element-ui/lib/theme-chalk/index.css'
 import router from './router'
 import './assets/css/global.css'
 import './assets/fonts/iconfont.css'
+import global from './assets/js/global'
 
+Vue.prototype.global = global
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>',
-  render: h => h(App)
+    el: '#app',
+    router,
+    components: { App },
+    template: '<App/>',
+    render: h => h(App)
 })

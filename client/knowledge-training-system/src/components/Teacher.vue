@@ -27,7 +27,7 @@
         <el-aside width="200px" class="aside">
           <div class="headPicBox">
             <div class="headPic">
-              <el-avatar :size="120" :src="circleUrl"></el-avatar>
+              <el-avatar :size="100" :src="circleUrl"></el-avatar>
               <p class="user-name">{{username}}</p>
             </div>
           </div>
@@ -60,9 +60,7 @@
           </div>
         </el-aside>
         <el-main class="main">
-          <div class="main-body">
-            <router-view></router-view>
-          </div>
+          <router-view></router-view>
         </el-main>
       </el-container>
     </el-container>
@@ -81,24 +79,40 @@ export default {
   },
   methods: {
     handleCommand(command) {
-      if (command == '账号管理'){
-        this.page = '账号管理'
-        this.$router.push({path: '/teacher/account', replace: true})
+      if (command == "账号管理") {
+        this.page = "账号管理";
+        this.$router.push({ path: "/teacher/account", replace: true });
         //重定向路由
-      }else{
-        this.$router.push({path: '/login', replace: true})
+      } else {
+        this.$router.push({ path: "/login", replace: true });
         //重定向路由到登录界面，同时清空所有全局用户数据
       }
     },
-    handleSelect(index){
-      if (index == '/teacher/info'){
-        this.page = '个人信息'
-      }else if(index == '/teacher/students'){
-        this.page = '学生管理'
-      }else if(index == '/teacher/paper'){
-        this.page = '发布试卷'
-      }else if(index == '/teacher/manage'){
-        this.page = '管理试卷'
+    handleSelect(index) {
+      if (index == "/teacher/info") {
+        this.page = "个人信息";
+      } else if (index == "/teacher/students") {
+        this.$http
+          .get(
+            this.global.baseURL +
+              "users/teacher/学生/"
+          )
+          .then(
+            response => {
+              // success callback
+              this.global.user.students = response.body;
+              console.log(this.global.user.students);
+            },
+            response => {
+              // error callback
+              alert("error!");
+            }
+          );
+        this.page = "学生管理";
+      } else if (index == "/teacher/paper") {
+        this.page = "发布试卷";
+      } else if (index == "/teacher/manage") {
+        this.page = "管理试卷";
       }
     }
   }
@@ -113,12 +127,13 @@ export default {
   height: 100%;
 }
 .header {
-  background-color: lightblue;
+  background-color: #fff;
+  border-bottom: 1px solid #dcdfe6;
 }
 .appname {
   height: 60px;
   font-size: 30px;
-  color: #ffffff;
+  color: #1989fa;
   display: inline-block;
   height: 100%;
   line-height: 56px;
@@ -130,19 +145,21 @@ export default {
   height: 100%;
   line-height: 60px;
   font-size: 20px;
-  color: #ffffff;
-  border-bottom: 3px solid #ffffff;
+  color: #1989fa;
+  border-bottom: 3px solid #1989fa;
   box-sizing: border-box;
   text-align: center;
+  font-weight: lighter;
 }
 .menu {
   display: inline-block;
   height: 100%;
   line-height: 60px;
   font-size: 20px;
-  color: #ffffff;
+  color: #1989fa;
   box-sizing: border-box;
   text-align: center;
+  font-weight: lighter;
 }
 .el-menu-item {
   width: 200px;
@@ -150,27 +167,23 @@ export default {
 .aside {
   background-color: #ffffff;
   height: 100%;
+  border: 1px solid #dcdfe6;
 }
 .headPicBox {
-  height: 200px;
+  height: 180px;
   text-align: center;
 }
 .headPic {
   position: absolute;
   left: 40px;
-  top: 80px;
+  top: 90px;
 }
 .aside {
 }
 .main {
-  background-color: rgb(236, 240, 240);
-  padding: 0;
-}
-.main-body {
+  background-color: #fff;
   height: 100%;
-  background-color: #ffffffd9;
-  width: 70%;
-  position: absolute;
-  left: 350px;
+  box-sizing: border-box;
+  border: 1px solid #dcdfe6;
 }
 </style>
