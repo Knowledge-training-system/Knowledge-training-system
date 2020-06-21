@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'users.apps.UsersConfig',
+    'modelsApp.apps.ModelsappConfig',
     'drf_yasg',
     
 ]
@@ -95,7 +96,7 @@ DATABASES = {
         'HOST': '127.0.0.1', # 数据库地址，本机 ip 地址 127.0.0.1 
         'PORT': '3306', # 端口 
         'USER': 'root',  # 数据库用户名
-        'PASSWORD': 'Xch13998151318+', # 数据库密码
+        'PASSWORD': '18423118112', # 数据库密码
     } 
     
     #'default2': {
