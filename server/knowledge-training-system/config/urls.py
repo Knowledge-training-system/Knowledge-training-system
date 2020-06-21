@@ -24,15 +24,20 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    #path('admin/', admin.site.urls),
-
     # 配置django-rest-framwork API路由
     path('', include(router.urls)),
     path('users/', include('users.urls')),
-    path('users-auth/', include('rest_framework.urls', namespace='rest_framework')),
     
+    #教师端管理题库问题相关url
     path('AllQuestions/searchQuestion/<str:questionType>/<str:knowledgePoint>/<str:difficulty>', modelsApp_views.searchQuestion),
+    path('AllQuestions/releaseExamination', modelsApp_views.releaseExamination), 
     
+    #学生端答卷相关url
+    path('Student/<int:userId>/AllPaper', modelsApp_views.getUserAllPaper), 
+    path('Student/PaperDetail/<int:paperId>', modelsApp_views.getPaperDetail), 
+    path('Student/submitPaperAnswer/<int:paperId>', modelsApp_views.submitPaperAnswer),
+    
+
     # 配置drf-yasg路由
     #path('^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

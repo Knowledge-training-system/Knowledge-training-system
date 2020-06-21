@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'modelsApp.apps.ModelsappConfig',
     'drf_yasg',
-    
+
 ]
 
 REST_FRAMEWORK = {
@@ -90,15 +90,15 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    'default': { 
+    'default': {
         'ENGINE': 'django.db.backends.mysql',    # 数据库引擎
         'NAME': 'ktsdb', # 数据库名称
-        'HOST': '127.0.0.1', # 数据库地址，本机 ip 地址 127.0.0.1 
-        'PORT': '3306', # 端口 
+        'HOST': '127.0.0.1', # 数据库地址，本机 ip 地址 127.0.0.1
+        'PORT': '3306', # 端口
         'USER': 'root',  # 数据库用户名
         'PASSWORD': '18423118112', # 数据库密码
-    } 
-    
+    }
+
     #'default2': {
     #    'ENGINE': 'django.db.backends.mysql',
     #    'NAME': 'KTS',
@@ -139,7 +139,7 @@ TIME_ZONE = 'UTC'
 ORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 #CORS_ORIGIN_WHITELIST = ()
-  
+
 CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
@@ -149,7 +149,7 @@ CORS_ALLOW_METHODS = (
     'PUT',
     'VIEW',
 )
-  
+
 CORS_ALLOW_HEADERS = (
     'accept',
     'accept-encoding',
