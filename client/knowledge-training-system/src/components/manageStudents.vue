@@ -50,5 +50,6 @@ export default {
   border: 1px solid #dcdfe6;
   height: 60%;
   margin-left: 10%;
+  margin-top: 50px;
 }
 </style>
