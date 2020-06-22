@@ -92,7 +92,7 @@
     <br />
     <el-card class="box-card">
       <div slot="header" style="text-align:center" class="clearfix">
-        <span style="font-size:20px">试卷(100分)</span>
+        <span style="font-size:20px">{{"试卷(" + testpaper.scores + "分)"}}</span>
       </div>
       <div v-for="item in testpaper.questions" class="text item">
         <div v-if="item.title == 'single' && item.value.length  > 0">一、单选题</div>
@@ -123,11 +123,8 @@
           v-else-if=" item.title == 'judge' &&  item.value.length > 0 && testpaper.questions.single.value.length != 0 && testpaper.questions.multiple.value.length != 0 && testpaper.questions.completion.value.length != 0"
         >四、判断题</div>
         <div v-else-if=" item.title == 'judge' &&  item.value.length > 0">三、判断题</div>
-        <br/>
-        <div
-          v-for="(question,index) in item.value"
-          style="margin-right:30px"
-        >
+        <br />
+        <div v-for="(question,index) in item.value" style="margin-right:30px">
           {{index +1}}{{"、" + question.question}}
           <br />
           <div style="margin-left:30px" v-if="item.title == 'single' || item.title == 'multiple'">
@@ -148,7 +145,7 @@
               </div>
             </el-col>
           </el-row>
-          <br/>
+          <br />
         </div>
       </div>
     </el-card>
@@ -175,6 +172,7 @@ export default {
 
     return {
       testpaper: {
+        scores:0,
         questions: {
           single: {
             title: "single",
@@ -251,7 +249,7 @@ export default {
 
       this.$http
         .post(this.global.baseURL + "AllQuestions/releaseExamination", {
-          releaseTeacherId: this.global.user.userInfo.username,
+          releaseTeacherId: this.global.user.userInfo.id,
           knowledgePointList: this.form.checkList,
           questionNumber0: this.form.single,
           questionNumber1: this.form.multiple,
@@ -266,32 +264,29 @@ export default {
           response => {
             // success callback
             alert("submit!");
+            console.log(this.testpaper.questions);
+            console.log(response);
             this.global.user.testpaper = response.body;
+            this.testpaper.scores = this.global.user.testpaper.releasePaperMaxScore;
             this.testpaper.questions.single.value = [];
             this.testpaper.questions.multiple.value = [];
             this.testpaper.questions.completion.value = [];
             this.testpaper.questions.judge.value = [];
+
             this.global.user.testpaper.questions.forEach(question => {
               console.log(question);
-              //console.log(question.question.indexOf("[单选题]"));
-              if (question.question.indexOf("[单选题]") == 0) {
-                console.log(question.question.indexOf("[单选题]"));
+              //console.log(questionindexOf("[单选题]"));
+              if (questionindexOf("[单选题]") == 0) {
+                console.log(questionindexOf("[单选题]"));
                 this.testpaper.questions.single.value.push(question);
-              } else if (question.question.indexOf("[多选题]") == 0) {
+              } else if (questionindexOf("[多选题]") == 0) {
                 this.testpaper.questions.multiple.value.push(question);
-              } else if (question.question.indexOf("[填空题]") == 0) {
+              } else if (questionindexOf("[填空题]") == 0) {
                 this.testpaper.questions.completion.value.push(question);
-              } else if (question.question.indexOf("[判断题]") == 0) {
+              } else if (questionindexOf("[判断题]") == 0) {
                 this.testpaper.questions.judge.value.push(question);
               }
             });
-            /*this.testpaper.paper = this.global.user.testpaper;
-            var scores = 0;
-            const questions = this.testpaper.paper.questions;
-            questions.forEach(question => {
-              scores = scores + question.score;
-            });
-            this.scores = scores;  */
             console.log(this.testpaper.questions);
             console.log(response);
           },

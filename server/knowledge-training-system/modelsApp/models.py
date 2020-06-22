@@ -45,7 +45,7 @@ class Paper(models.Model):
     submitEndTime = models.DateTimeField(default='2000-01-01 00:00')  #截止提交时间
     
     submitTime = models.DateTimeField(null = True)  #学生提交时间
-    submitAnswerList = JSONField(null = True)  #学生提交的答案列表
+    submitAnswerList = JSONField()  #学生提交的答案列表
     maxScore = models.IntegerField(null = True)
     score = models.IntegerField(null = True)
     submitted = models.BooleanField(default=0) #该试卷已提交

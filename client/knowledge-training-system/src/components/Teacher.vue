@@ -110,6 +110,22 @@ export default {
           );
         this.page = "学生管理";
       } else if (index == "/teacher/paper") {
+        this.$http.get(
+                      this.global.baseURL +
+                        "Teacher/" + this.global.user.userInfo.id +"/AllPaper"
+                    )
+                    .then(
+                      response => {
+                        // success callback
+                        this.global.user.studentPapers = response.body;
+                        console.log('学生试卷');
+                        console.log(this.global.user.studentPapers);
+                      },
+                      response => {
+                        // error callback
+                        alert("error!");
+                      }
+                    );
         this.page = "发布试卷";
       } else if (index == "/teacher/manage") {
         this.page = "管理试卷";

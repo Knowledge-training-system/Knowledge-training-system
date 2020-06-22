@@ -107,7 +107,7 @@ export default {
               alert("error!");
             }
           ),
-        
+          
           this.$http
             .post(
               this.global.baseURL +
@@ -124,6 +124,24 @@ export default {
                 this.global.user.userInfo = response.body;
                 console.log(this.global.user.userInfo);
                 console.log(response);
+
+                this.$http
+                    .get(
+                      this.global.baseURL +
+                        "Teacher/" + this.global.user.userInfo.id +"/AllPaper"
+                    )
+                    .then(
+                      response => {
+                        // success callback
+                        this.global.user.studentPapers = response.body;
+                        console.log('学生试卷');
+                        console.log(this.global.user.studentPapers);
+                      },
+                      response => {
+                        // error callback
+                        alert("error!");
+                      }
+                    );
                 if (this.loginForm.userId[0] == '1'){
                   this.$router.push({ path: "/teacher", replace: true });
                 }else if (this.loginForm.userId[0] == '0'){

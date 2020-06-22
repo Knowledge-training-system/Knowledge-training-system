@@ -20,6 +20,7 @@ from modelsApp.serializers import QuestionSerializer
 from modelsApp.serializers import releaseExaminationSerializer
 from modelsApp.serializers import PaperSerializer
 from modelsApp.serializers import submitPaperAnswerSerializer
+from users.models import ExtraUser
 
 import random
 import ast
@@ -140,10 +141,11 @@ def releaseExamination(request):
     thePaper = PaperSerializer(Paper.objects.get(paperId = firstPaperId)).data
     data['firstPaperId'] = thePaper['paperId']
     data['submitted'] = thePaper['submitted']
+    data['maxScore'] = thePaper['maxScore']
     submitted = thePaper['submitted']
     data['submitStartTime'] = thePaper['submitStartTime']
     data['submitEndTime'] = thePaper['submitEndTime']
-    data['questiions'] = []
+    data['questions'] = []
     PaperData = PaperSerializer(thePaper).data
     pos = -1
     #if submitted!=1:
@@ -159,13 +161,14 @@ def releaseExamination(request):
                 #aQuestionData['trueAnswer'] = ''
             #[['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
             #[ ['民族','a'],['A'],['A'],['民族'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
-            data['questiions'].append(aQuestionData)
+            data['questions'].append(aQuestionData)
     return Response(data = data) 
 
 
 @api_view(['GET'])
 def getUserAllPaper(request, userId):
     UserAllPaper = Paper.objects.all().filter(studentId = userId)
+    
     data=[]
     PaperData = PaperSerializer(UserAllPaper, many=True).data
     for paper in PaperData:
@@ -180,7 +183,9 @@ def getUserAllPaper(request, userId):
         aPaperDict['questionTotalNumber'] = sum #总题数
         
         aPaperDict['score'] = paper['score']
+        aPaperDict['teacherId'] = paper['releaseTeacherId']
         aPaperDict['maxScore'] = paper['maxScore']
+        aPaperDict['submitTime'] = paper['submitTime']
         aPaperDict['submitStartTime'] = paper['submitStartTime']
         aPaperDict['submitEndTime'] = paper['submitEndTime']
         data.append(aPaperDict)
@@ -204,6 +209,8 @@ def getTeacherAllPaper(request, userId):
         aPaperDict['questionTotalNumber'] = sum #总题数
         
         aPaperDict['score'] = paper['score']
+        aPaperDict['studentId'] = paper['studentId']
+        aPaperDict['submitTime'] = paper['submitTime']
         aPaperDict['maxScore'] = paper['maxScore']
         aPaperDict['submitStartTime'] = paper['submitStartTime']
         aPaperDict['submitEndTime'] = paper['submitEndTime']
@@ -220,7 +227,8 @@ def getPaperDetail(request, paperId):
     submitted = thePaper['submitted']
     data['submitStartTime'] = thePaper['submitStartTime']
     data['submitEndTime'] = thePaper['submitEndTime']
-    data['questiions'] = []
+    data['submitAnswerList'] = thePaper['submitAnswerList']
+    data['questions'] = []
     PaperData = PaperSerializer(thePaper).data
     pos = -1
     
@@ -231,6 +239,12 @@ def getPaperDetail(request, paperId):
             aQuestionData = QuestionSerializer(QuestionsList.objects.get(questionId = QId)).data
             aQuestionData['options'] = ast.literal_eval(aQuestionData['options'])
             aQuestionData['trueAnswer'] = ast.literal_eval(aQuestionData['answer'])
+
+            if thePaper['submitAnswerList']:
+                aQuestionData['submittedAnswer'] = ast.literal_eval(thePaper['submitAnswerList'])[pos]#
+            else:
+                aQuestionData['submittedAnswer'] = None
+
             del aQuestionData['answer']
             
             if submitted==1:
@@ -246,7 +260,7 @@ def getPaperDetail(request, paperId):
                 #aQuestionData['trueAnswer'] = ''
             #[['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
             #[ ['民族','a'],['A'],['A'],['民族'],['A'],['A'],['A'],['A'],['A'], ['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A'],['A']]
-            data['questiions'].append(aQuestionData)
+            data['questions'].append(aQuestionData)
 
 
     return Response(data = data)  
@@ -265,6 +279,7 @@ def submitPaperAnswer(request, paperId):
     QIdList = thePaper.QIdList #ast.literal_eval(
     thePaper.submitAnswerList = submitAnswerList
     thePaper.submitted = 1
+    thePaper.submitTime = now
     
     score = 0
     for i in range(len(QIdList)):
