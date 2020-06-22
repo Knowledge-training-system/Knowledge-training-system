@@ -94,6 +94,63 @@
       <div slot="header" style="text-align:center" class="clearfix">
         <span style="font-size:20px">试卷(100分)</span>
       </div>
+      <div v-for="item in testpaper.questions" class="text item">
+        <div v-if="item.title == 'single' && item.value.length  > 0">一、单选题</div>
+        <div
+          v-else-if=" item.title == 'multiple' &&  item.value.length  > 0&& testpaper.questions.single.value.length == 0"
+        >一、多选题</div>
+        <div v-else-if=" item.title == 'multiple' &&  item.value.length">二、多选题</div>
+        <div
+          v-else-if=" item.title == 'completion' &&  item.value.length  > 0 && testpaper.questions.single.value.length == 0 && testpaper.questions.multiple.value.length == 0"
+        >一、填空题</div>
+        <div
+          v-else-if=" item.title == 'completion' &&  item.value.length  > 0 && (testpaper.questions.single.value.length == 0 || testpaper.questions.multiple.value.length == 0)"
+        >二、填空题</div>
+        <div v-else-if=" item.title == 'completion' &&  item.value.length  > 0">三、填空题</div>
+        <div
+          v-else-if=" item.title == 'judge' &&  item.value.length  > 0 && testpaper.questions.single.value.length == 0 && testpaper.questions.multiple.value.length == 0 && testpaper.questions.completion.value.length == 0"
+        >一、判断题</div>
+        <div
+          v-else-if=" item.title == 'judge' &&  item.value.length  > 0 && testpaper.questions.single.value.length != 0 && testpaper.questions.multiple.value.length == 0 && testpaper.questions.completion.value.length == 0"
+        >二、判断题</div>
+        <div
+          v-else-if=" item.title == 'judge' &&  item.value.length > 0 && testpaper.questions.single.value.length == 0 && testpaper.questions.multiple.value.length != 0 && testpaper.questions.completion.value.length == 0"
+        >二、判断题</div>
+        <div
+          v-else-if=" item.title == 'judge' &&  item.value.length > 0 && testpaper.questions.single.value.length == 0 && testpaper.questions.multiple.value.length == 0 && testpaper.questions.completion.value.length != 0"
+        >二、判断题</div>
+        <div
+          v-else-if=" item.title == 'judge' &&  item.value.length > 0 && testpaper.questions.single.value.length != 0 && testpaper.questions.multiple.value.length != 0 && testpaper.questions.completion.value.length != 0"
+        >四、判断题</div>
+        <div v-else-if=" item.title == 'judge' &&  item.value.length > 0">三、判断题</div>
+        <br/>
+        <div
+          v-for="(question,index) in item.value"
+          style="margin-right:30px"
+        >
+          {{index +1}}{{"、" + question.question}}
+          <br />
+          <div style="margin-left:30px" v-if="item.title == 'single' || item.title == 'multiple'">
+            {{question.options[0]}}
+            <br />
+            {{question.options[1]}}
+            <br />
+            {{question.options[2]}}
+            <br />
+            {{question.options[3]}}
+          </div>
+          <br />
+          <el-row>
+            <el-col :span="4">
+              <div style="margin-left:30px">
+                答案:
+                <el-input placeholder="请输入答案" size="mini"></el-input>
+              </div>
+            </el-col>
+          </el-row>
+          <br/>
+        </div>
+      </div>
     </el-card>
   </div>
 </template>
@@ -115,7 +172,31 @@ export default {
       });
       return allStudents;
     };
+
     return {
+      testpaper: {
+        questions: {
+          single: {
+            title: "single",
+            value: []
+          },
+          multiple: {
+            title: "multiple",
+            value: []
+          },
+          completion: {
+            title: "completion",
+            value: []
+          },
+          judge: {
+            title: "judge",
+            value: []
+          }
+        }
+        //paper: [],
+        //scores: 0,
+        //count: 1
+      },
       allStudents: generateStudents(),
       testStudents: [],
       filterMethod(query, item) {
@@ -123,30 +204,30 @@ export default {
       },
       options: [
         {
-          value: "4",
+          value: 4,
           label: "简单"
         },
         {
-          value: "5",
+          value: 5,
           label: "一般"
         },
         {
-          value: "6",
+          value: 6,
           label: "难"
         },
         {
-          value: "7",
+          value: 7,
           label: "超难"
         },
         {
-          value: "8",
+          value: 8,
           label: "巨难"
         }
       ],
-      difficulty: "",
+      difficulty: 0,
 
       form: {
-        teacherName: "",
+        teacherName: this.global.user.userInfo.extra.name,
         checkList: [],
         single: "",
         multiple: "",
@@ -157,37 +238,61 @@ export default {
     };
   },
   methods: {
-    omSubmit() {
+    onSubmit() {
       const studentIds = [];
       const testStudents = this.testStudents;
+      console.log("你好");
+      console.log(this.allStudents);
+      console.log(testStudents);
       testStudents.forEach((student, index) => {
-        studentIds.push(student.id);
+        studentIds.push(this.allStudents[index].id);
       });
+      console.log(studentIds);
 
       this.$http
-        .post(
-          this.global.baseURL +
-            "AllQuestions/releaseExamination/",
-            {
-                releaseTeacherId:this.global.user.userInfo.id,
-                knowledgePointList:this.form.checkList,
-                questionTypeList:[1,2,3,4],
-                questionNumber0:this.form.single,
-                questionNumber1:this.form.multiple,
-                questionNumber2:this.form.completion,
-                questionNumber3:this.form.judge,
-                averageDifficulty:this.difficulty,
-                studentIdList:studentIds,
-                submitStartTime:this.datetime,
-                submitEndTime:this.datetime,
-            }
-        )
+        .post(this.global.baseURL + "AllQuestions/releaseExamination", {
+          releaseTeacherId: this.global.user.userInfo.username,
+          knowledgePointList: this.form.checkList,
+          questionNumber0: this.form.single,
+          questionNumber1: this.form.multiple,
+          questionNumber2: this.form.completion,
+          questionNumber3: this.form.judge,
+          averageDifficulty: this.difficulty,
+          studentIdList: studentIds,
+          submitStartTime: this.datetime[0],
+          submitEndTime: this.datetime[1]
+        })
         .then(
           response => {
             // success callback
             alert("submit!");
             this.global.user.testpaper = response.body;
-            console.log(this.global.user.testpaper);
+            this.testpaper.questions.single.value = [];
+            this.testpaper.questions.multiple.value = [];
+            this.testpaper.questions.completion.value = [];
+            this.testpaper.questions.judge.value = [];
+            this.global.user.testpaper.questions.forEach(question => {
+              console.log(question);
+              //console.log(question.question.indexOf("[单选题]"));
+              if (question.question.indexOf("[单选题]") == 0) {
+                console.log(question.question.indexOf("[单选题]"));
+                this.testpaper.questions.single.value.push(question);
+              } else if (question.question.indexOf("[多选题]") == 0) {
+                this.testpaper.questions.multiple.value.push(question);
+              } else if (question.question.indexOf("[填空题]") == 0) {
+                this.testpaper.questions.completion.value.push(question);
+              } else if (question.question.indexOf("[判断题]") == 0) {
+                this.testpaper.questions.judge.value.push(question);
+              }
+            });
+            /*this.testpaper.paper = this.global.user.testpaper;
+            var scores = 0;
+            const questions = this.testpaper.paper.questions;
+            questions.forEach(question => {
+              scores = scores + question.score;
+            });
+            this.scores = scores;  */
+            console.log(this.testpaper.questions);
             console.log(response);
           },
           response => {
@@ -195,7 +300,7 @@ export default {
             alert("error!");
           }
         );
-    },
+    }
   }
 };
 </script>

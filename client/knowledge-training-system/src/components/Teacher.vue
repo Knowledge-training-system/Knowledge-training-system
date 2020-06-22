@@ -73,7 +73,7 @@ export default {
     return {
       circleUrl:
         "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
-      username: "this.global.user.userInfo.extra.name",
+      username: this.global.user.userInfo.extra.name,
       page: "个人信息"
     };
   },
