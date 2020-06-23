@@ -145,6 +145,23 @@ export default {
                 if (this.loginForm.userId[0] == '1'){
                   this.$router.push({ path: "/teacher", replace: true });
                 }else if (this.loginForm.userId[0] == '0'){
+                   this.$http
+                    .get(
+                      this.global.baseURL +
+                        "Student/" + this.global.user.userInfo.id +"/AllPaper"
+                    )
+                    .then(
+                      response => {
+                        // success callback
+                        this.global.user.oneStudentPapers = response.body;
+                        console.log('学生试卷');
+                        console.log(this.global.user.oneStudentPapers);
+                      },
+                      response => {
+                        // error callback
+                        alert("error!");
+                      }
+                    );
                   this.$router.push({ path: "/student", replace: true });
                 }else{
                   console.log("用户ID错误。")

@@ -84,22 +84,7 @@ export default {
       if (index == "/student/info") {
         this.page = "个人信息";
       } else if (index == "/student/tests") {
-        this.$http
-          .get(
-            this.global.baseURL +
-              "users/teacher/学生/"
-          )
-          .then(
-            response => {
-              // success callback
-              this.global.user.students = response.body;
-              console.log(this.global.user.students);
-            },
-            response => {
-              // error callback
-              alert("error!");
-            }
-          );
+       
         this.page = "学生管理";
       } 
     }

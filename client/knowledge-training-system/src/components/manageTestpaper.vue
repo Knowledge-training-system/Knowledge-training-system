@@ -123,6 +123,9 @@ export default {
           //count: 1
         };
 
+        submitOrNot = "未提交";
+        SCORE = "无";
+        
         if (studentPaper.score != null) {
           SCORE = studentPaper.score;
         }
